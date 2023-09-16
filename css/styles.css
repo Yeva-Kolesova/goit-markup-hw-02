@@ -206,6 +206,6 @@ body {
 }
 
 .filter-button.current{
-    color: var(--accent-pressed-state);
+    color: var(--white-text-color);
     background-color: var(--accent-background-color);
 }
