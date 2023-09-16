@@ -6,7 +6,7 @@
     --title-text-color: #2E2F42;
     --white-text-color: #FFF;
     --light-text:#F4F4FD;
-    --logo-colored:#4D5AE5;
+    --logo-colored: #4d5ae5;
 
 
     /* active state style variables */
@@ -21,7 +21,7 @@
     --accent-background-color: #404BBF;
 }
 
-a { 
+a, .link { 
     color:inherit;
     font-style: normal;
     text-decoration: none;
@@ -86,15 +86,15 @@ body {
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 0.54px;
-    line-height: 1.16;
+    line-height: 1.17;
 
-    color: var(--primary-text-color);
+    color: var(--logo-colored);
 
     text-transform: uppercase;
 }
 
 .logo .colored-text{
-    color: var(--logo-colored);
+    color: var(--primary-text-color);
 }
 
 
@@ -115,6 +115,9 @@ body {
     color: var(--accent-color);
 }
 
+.auth-nav{
+    font-style:normal;
+}
 /* Hero section  */
 
 .hero-wrapper{
