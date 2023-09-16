@@ -189,8 +189,8 @@ body {
     background-color: var(--dark-color);
 }
 
-.footer-wrapper .logo{
-    color: var(--light-text)
+.footer-wrapper .logo .colored-text{
+    color: var(--light-text);
 }
 
 
