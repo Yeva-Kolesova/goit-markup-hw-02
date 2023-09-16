@@ -20,13 +20,13 @@
 
       <ul class="nav-list list">
         <li class="nav-item link">
-          <a class="nav-link" href="./index.html">Studio</a>
+          <a class="nav-link link " href="./index.html">Studio</a>
         </li>
         <li class="nav-item link">
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          <a class="nav-link link" href="./portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item link">
-          <a class="nav-link" href="">Contacts</a>
+          <a class="nav-link link" href="">Contacts</a>
         </li>
       </ul>
     </nav>
@@ -35,10 +35,10 @@
     <address class="auth-wrapper">
       <ul class="auth-nav list">
         <li class="nav-item">
-          <a class="nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="nav-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <a class="nav-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
       </ul>
     </address>
@@ -60,28 +60,36 @@
       <ul class="list">
         <li>
           <h3 class="item-heading">Strategy</h3>
-          <p>
+
+          <!-- class="section-text" вимагається під час тестування - 
+          але задані стилі для тексту як базові у тегу body
+          Чи вважається це правильним, чи обов'язковий винос стилів для тексту в 
+          окремий селектор класу.
+          Якщо обов'язково, то тоді які характеристики дефолтні по тексту мають
+          бути у тегу body -->
+
+          <p class="section-text">
             Our goal is to identify the business
             problem to walk away with the perfect and creative solution.
           </p>
         </li>
         <li>
           <h3 class="item-heading">Punctuality</h3>
-          <p>
+          <p class="section-text">
             Bring the key message to the brand's audience for the best price
             within the shortest possible time.
           </p>
         </li>
         <li>
           <h3 class="item-heading">Diligence</h3>
-          <p>
+          <p class="section-text">
             Research and confirm brands that present the strongest
             digital growth opportunities and minimize risk.
           </p>
         </li>
         <li>
           <h3 class="item-heading">Technologies</h3>
-          <p>
+          <p class="section-text">
             Design practice focused on digital experiences.
             We bring forth a deep passion for problem-solving.
           </p>
@@ -116,22 +124,22 @@
         <li class="temmate-item">
           <img src="./images/team-mate-pd.jpg" alt="Mark Guerrero photo" width="264">
           <h3 class="item-heading">Mark Guerrero</h3>
-          <p>Product Designer</p>
+          <p class="section-text">Product Designer</p>
         </li>
         <li class="temmate-item">
           <img src="./images/team-mate-fe.jpg" alt="Tom Ford photo" width="264">
           <h3 class="item-heading">Tom Ford</h3>
-          <p>Frontend Developer</p>
+          <p class="section-text">Frontend Developer</p>
         </li>
         <li class="temmate-item">
           <img src="./images/team-mate-marketing.jpg" alt="Camila Garcia photo" width="264">
           <h3 class="item-heading">Camila Garcia</h3>
-          <p>Marketing</p>
+          <p class="section-text">Marketing</p>
         </li>
         <li class="temmate-item">
           <img src="./images/team-mate-ui.jpg" alt="Daniel Wilson photo" width="264">
           <h3 class="item-heading">Daniel Wilson</h3>
-          <p>UI Designer</p>
+          <p class="section-text">UI Designer</p>
         </li>
       </ul>
     </section>
@@ -139,7 +147,7 @@
 
   <footer class="footer-wrapper">
      <a href="./index.html" class="logo link">Web<span class="colored-text">Studio</span></a>
-    <p>
+    <p class="section-text">
       Increase the flow of customers
       and sales for your business with digital
       marketing & growth solutions.
