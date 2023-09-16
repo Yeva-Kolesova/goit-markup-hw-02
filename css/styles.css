@@ -100,12 +100,14 @@ body {
 
 /* Navigation */
 
+.nav-list .nav-link{
+    
+    color: var(--title-text-color);
+}
+
 .nav-list .nav-link,
 .auth-nav .nav-link{
     font-weight: 500;
-
-    color: var(--title-text-color);
-
 }
 
 .nav-list .nav-link:hover,
@@ -141,21 +143,28 @@ body {
 /* hero button */
 
 .button {
-  color: var(--white-text-color);
-  background-color: var(--accent-pressed-state);
-
   line-height: inherit;
-  letter-spacing: 0.04em;
 
   font-size: 16px;
   font-weight: 500;
+
+  letter-spacing: 0.04em;
+
   text-decoration: none;
+  border:none;    
+}
+
+.hero-button{
+
+  background-color: var(--accent-pressed-state);
+  color: var(--white-text-color);
 }
 
 .button:hover,
 .button:focus{
     background-color: var(--accent-background-color);
 }
+
 
 /* Benefits section  */
 
@@ -192,16 +201,8 @@ body {
 /* filter button  */
 
 .filter-button{
-    font-weight: 500;
-    letter-spacing: 0.64px;
-    
-
     color: var(--accent-pressed-state);
     background-color: var(--light-background-color);
-
-    
-    text-decoration: none;
-    border:none;
 }
 
 .filter-button.current{
