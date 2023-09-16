@@ -205,7 +205,7 @@ body {
     background-color: var(--light-background-color);
 }
 
-.filter-button.current{
-    color: var(--white-text-color);
+.filter-button:hover{
+    color: var(--light-text);
     background-color: var(--accent-background-color);
 }
